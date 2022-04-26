@@ -102,3 +102,44 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# for baseline
+*.swp
+*.pyc
+*.pkl
+*.py~
+requirements/baselines-master/.pytest_cache
+requirements/baselines-master/.DS_Store
+requirements/baselines-master/.idea
+
+# Setuptools distribution and build folders.
+requirements/baselines-master/dist/
+requirements/baselines-master/build
+requirements/baselines-master/keys/
+
+# Virtualenv
+requirements/baselines-master/env
+
+*.sublime-project
+*.sublime-workspace
+
+requirements/baselines-master/.idea
+
+requirements/baselines-master/logs/
+
+requirements/baselines-master/.ipynb_checkpoints
+requirements/baselines-master/ghostdriver.log
+
+requirements/baselines-master/htmlcov
+
+requirements/baselines-master/junk
+requirements/baselines-master/src
+
+*.egg-info
+requirements/baselines-master/.cache
+
+requirements/baselines-master/MUJOCO_LOG.TXT
+
+# for multiagent-particle-envs
+requirements/multiagent-particle-envs-master/__pycache__/
+*.egg-info/
